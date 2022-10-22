@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Favour/Downloads/BitFit/app/src/main/res/layout/activity_add_food.xml" value="0.1" />
+        <entry key="..\:/Users/Favour/Downloads/BitFit/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Favour/Downloads/BitFit/app/src/main/res/layout/food_list.xml" value="0.6" />
+        <entry key="..\:/Users/Megan/AndroidStudioProjects/HydroTask/app/src/main/res/layout/activity_add_water.xml" value="0.4041666666666667" />
+        <entry key="..\:/Users/Megan/AndroidStudioProjects/HydroTaskV2/app/src/main/res/layout/activity_add_water.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Megan/AndroidStudioProjects/HydroTaskV2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Megan/AndroidStudioProjects/HydroTaskV2/app/src/main/res/layout/fragment_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Megan/AndroidStudioProjects/HydroTaskV2/app/src/main/res/layout/fragment_drink_water.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Megan/AndroidStudioProjects/HydroTaskV2/app/src/main/res/layout/fragment_water_log.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Megan/AndroidStudioProjects/HydroTaskV2/app/src/main/res/layout/menubar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Megan/AndroidStudioProjects/HydroTaskV2/app/src/main/res/layout/water_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Megan/AndroidStudioProjects/HydroTaskV2/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Megan/AndroidStudioProjects/Test3/app/src/main/res/layout/activity_add_food.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Megan/AndroidStudioProjects/Test3/app/src/main/res/layout/activity_add_water.xml" value="0.33" />
+        <entry key="..\:/Users/Megan/AndroidStudioProjects/Test3/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Megan/AndroidStudioProjects/Test3/app/src/main/res/layout/food_list.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Megan/AndroidStudioProjects/Test3/app/src/main/res/layout/water_detail.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

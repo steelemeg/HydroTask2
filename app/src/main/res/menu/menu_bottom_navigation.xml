@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_log"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:title="@string/text_log"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_stats"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_bar_chart_24"
+        android:title="@string/text_stats"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_goal"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_local_drink_24"
+        android:title="@string/text_goal"
+        app:showAsAction="ifRoom" />
+</menu>

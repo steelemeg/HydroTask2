@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvDaysLabel"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tvStatDays"
+        android:text="@string/daysRecorded"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvStatDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvDaysLabel"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="30dp"
+            android:text="placeholder"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/tvAverageLabel"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvDaysLabel"
+            app:layout_constraintEnd_toStartOf="@id/tvStatAverage"
+            android:text="@string/average"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/tvStatAverage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvAverageLabel"
+            app:layout_constraintTop_toBottomOf="@id/tvStatDays"
+            android:layout_marginTop="10dp"
+            android:text="placeholder"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tvMinimumLabel"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvAverageLabel"
+            app:layout_constraintEnd_toStartOf="@id/tvStatMinimum"
+            android:text="@string/minimum"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/tvStatMinimum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvMinimumLabel"
+            app:layout_constraintTop_toBottomOf="@id/tvStatAverage"
+            android:layout_marginTop="10dp"
+            android:text="placeholder"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tvMaximumLabel"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvMinimumLabel"
+            app:layout_constraintEnd_toStartOf="@id/tvStatMaximum"
+            android:text="@string/maximum"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/tvStatMaximum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvMaximumLabel"
+            app:layout_constraintTop_toBottomOf="@id/tvStatMinimum"
+            android:layout_marginTop="10dp"
+            android:text="placeholder"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18dp"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@id/tvMaximumLabel"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HydroTask</string>
+    <string name="date">Date:</string>
+    <string name="ounces">Ounces:</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="enter_ounces">Enter Ounces</string>
+    <string name="ounces_label">Ounces</string>
+    <string name="text_log">Log</string>
+    <string name="text_stats">Dashboard</string>
+    <string name="text_profile">Profile</string>
+    <string name="text_goal">Drink Water</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="daysRecorded">Days Logged:</string>
+    <string name="average">Average Ounces:</string>
+    <string name="minimum">Minimum:</string>
+    <string name="maximum">Maximum:</string>
+</resources>
